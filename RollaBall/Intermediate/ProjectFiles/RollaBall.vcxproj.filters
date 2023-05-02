@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RollaBall.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D1F53D4A-FE86-4BAE-A43D-71B482E0A1F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RollaBall.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RollaBallEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3135B4F7-59B5-4D5A-8518-1DE16060826B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RollaBall">
+      <UniqueIdentifier>{50AF318D-4383-441D-895E-2E05A61909A7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RollaBall\BasePlayer.cpp">
+      <Filter>Source\RollaBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RollaBall\BasePlayer.h">
+      <Filter>Source\RollaBall</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\RollaBall\RollaBall.Build.cs">
+      <Filter>Source\RollaBall</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RollaBall\RollaBall.cpp">
+      <Filter>Source\RollaBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RollaBall\RollaBall.h">
+      <Filter>Source\RollaBall</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RollaBall\RollaBallGameModeBase.cpp">
+      <Filter>Source\RollaBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RollaBall\RollaBallGameModeBase.h">
+      <Filter>Source\RollaBall</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
